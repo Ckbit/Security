@@ -48,7 +48,7 @@
 
 
 
-  1<script>
+1<script>
 2 if (document.cookie) {
 3 alert('Stored XSS');
 4 } else {

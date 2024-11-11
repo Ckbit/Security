@@ -125,3 +125,4 @@ Os registros se tratam de hub's onde as imagens criadas e utilizadas ficam armaz
 	```docker
 	ps aux
 	```
+

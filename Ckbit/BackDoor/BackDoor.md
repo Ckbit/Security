@@ -1,1 +1,3 @@
-  - [[Discord RAT 2.0]]
+```ccard
+type: folder_brief_live
+```

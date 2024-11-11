@@ -1,7 +1,4 @@
-[[BackDoor]]
-[[Networks]]
-[[Others]]
-[[Programming]]
-[[SO]]
-[[Tools]]
-[[Vulnerabilities]]
+```ccard
+type: folder_brief_live
+```
+

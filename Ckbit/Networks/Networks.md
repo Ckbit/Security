@@ -1,16 +1,3 @@
-
-- [[ARP]]
-- [[CIDR]]
-- [[DHCP]]
-- [[DNS]]
-- [[HTTP e HTTPS]]
-- [[IMCP]]
-- [[Máscaras de sub-rede e como segmentar redes]]
-- [[Modelo OSI e Modelo Internet]]
-- [[NAT]]
-- [[Port Fowarding e riscos]]
-- [[Segurança do Firewall]]
-- [[Switches, Roteadores e Firewalls]]
-- [[TCP e UDP]]
-- [[VLAN e seguimentação de redes]]
-- [[VPN e riscos]]
+```ccard
+type: folder_brief_live
+```

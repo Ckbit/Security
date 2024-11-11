@@ -1,1 +1,3 @@
-- [[Assembly e C]]
+```ccard
+type: folder_brief_live
+```

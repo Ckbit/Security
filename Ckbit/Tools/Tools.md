@@ -1,4 +1,3 @@
-- [[ferramentas de monitoramento de sistemas]]
-- [[ipconfig, netstat, tracert]]
-- [[MSF Venom]]
-- [[WireShark]]
+```ccard
+type: folder_brief_live
+```

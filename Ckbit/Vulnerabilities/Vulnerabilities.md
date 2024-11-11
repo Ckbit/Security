@@ -1,2 +1,3 @@
-- [[SQL Injection]]
-- [[XSS(Cross-Site Scripting)]]
+```ccard
+type: folder_brief_live
+```

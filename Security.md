@@ -1,2 +1,0 @@
-[[Ckbit]]
-[[honest_nick]]

@@ -1,5 +1,4 @@
 [[Docker]]
 [[MySQL]]
 [[MySQL]]
-[[Security/honest_nick/Dev Ops/Teste]]
 [[WSL]]

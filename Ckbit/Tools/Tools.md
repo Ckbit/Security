@@ -1,0 +1,4 @@
+- [[ferramentas de monitoramento de sistemas]]
+- [[ipconfig, netstat, tracert]]
+- [[MSF Venom]]
+- [[WireShark]]

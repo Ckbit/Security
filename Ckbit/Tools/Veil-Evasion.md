@@ -108,5 +108,3 @@ Após o payload ser gerado, o Veil-Evasion pode ofuscá-lo para reduzir as chanc
 ### Considerações Finais
 
 O Veil-Evasion é uma ferramenta valiosa em testes de penetração avançados, especialmente em ambientes onde a evasão de antivírus é crítica. Contudo, com o avanço de técnicas de detecção, é importante que o tester esteja sempre atualizado com novas técnicas e constantemente teste a eficácia dos payloads em diferentes cenários.
-
-Para qual tipo de teste você gostaria de aplicar o Veil-Evasion?

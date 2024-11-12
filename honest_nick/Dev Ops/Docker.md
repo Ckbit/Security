@@ -107,22 +107,22 @@ Os registros se tratam de hub's onde as imagens criadas e utilizadas ficam armaz
 	```
 #### **docker rm |ID|**
 - Serve para remover um container do computador.
-	```docker
+	```bash
 	sudo docker rm ID
 	```
 #### **docker images**
 - Serve para listar as imagens salvas no docker.
-	```docker
-	docker images
+	```bash
+	sudo docker images
 	```
 #### **docker rmi |ID|**
 - Serve para remover uma imagem do docker.
-	```docker
-	docker rmi ID
+	```bash
+	sudo docker rmi ID
 	```
 #### **ps aux**
 - Serve para mostrar os serviços em execução no Ubuntu.
-	```docker
-	ps aux
+	```bash
+	sudo ps aux
 	```
 

@@ -62,17 +62,17 @@ Os registros se tratam de hub's onde as imagens criadas e utilizadas ficam armaz
 ### **Comandos**
 #### **docker ps**
 - Lista os containers **em execução** na máquina e as imagens vinculadas a ele.
-	```docker
+	```bash
 	docker ps
 	```
 #### **docker ps -a**
 - Lista os containers **já executados** na máquina e as imagens vinculadas a ele.
-	```docker
+	```bash
 	docker ps -a
 	```
 #### **docker run |imagem|**
 - Serve para executar a imagem dentro do docker, porém esse comando somente executa e não mantém a imagem em execução. Exemplo:
-	```docker
+	```bash
 	docker run hello-world
 	```
 #### **docker run -it |imagem|**

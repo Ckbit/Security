@@ -1,6 +1,4 @@
-# Plugins Overview
- 
-```ccard
+ ```ccard
 type: folder_brief_live
 ```
  

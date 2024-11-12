@@ -63,52 +63,52 @@ Os registros se tratam de hub's onde as imagens criadas e utilizadas ficam armaz
 #### **docker ps**
 - Lista os containers **em execução** na máquina e as imagens vinculadas a ele.
 	```bash
-	docker ps
+	sudo docker ps
 	```
 #### **docker ps -a**
 - Lista os containers **já executados** na máquina e as imagens vinculadas a ele.
 	```bash
-	docker ps -a
+	sudo docker ps -a
 	```
 #### **docker run |imagem|**
 - Serve para executar a imagem dentro do docker, porém esse comando somente executa e não mantém a imagem em execução. Exemplo:
 	```bash
-	docker run hello-world
+	sudo docker run hello-world
 	```
 #### **docker run -it |imagem|**
 - Serve para manter a imagem em execução na máquina. O **'it'** server para indiciar a interação com uma imagem. Um exemplo seria:
-	```docker
-	docker run -it ubuntu bash
+	```bash
+	sudo docker run -it ubuntu bash
 	``````
 #### **docker stop |ID|**
 - Serve para finalizar um container que esteja em execução.
-	```docker
-	docker stop ID
+	```bash
+	sudo docker stop ID
 	```
 #### **docker start |ID|**
 - Serve para inicializar um container que foi encerrado anteriormente.
-	```docker
-	docker strat ID
+	```bash
+	sudo docker strat ID
 	```
 #### **docker exec -it |ID|**
 - Serve para executar um container que está em serviço no momento.
-	```docker
-	docker exec -it ID
+	```bash
+	sudo docker exec -it ID
 	```
 #### **docker ps -a**
 - Serve para listar todos os container que já foram executados na máquina.
-	```docker
-	docker ps -a
+	```bash
+	sudo docker ps -a
 	```
 #### **docker attach |ID|**
 - Serve para executar acessar um container que está em execução.
-	```docker
-	docker attach ID
+	```bash
+	sudo docker attach ID
 	```
 #### **docker rm |ID|**
 - Serve para remover um container do computador.
 	```docker
-	docker rm ID
+	sudo docker rm ID
 	```
 #### **docker images**
 - Serve para listar as imagens salvas no docker.

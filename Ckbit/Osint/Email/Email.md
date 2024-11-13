@@ -1,3 +1,7 @@
+---
+folder: GitHub/Ckbit/Osint/Email
+created: 2024-11-13
+---
 # Email Overview
  
 ```ccard

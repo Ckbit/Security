@@ -1,3 +1,7 @@
+---
+folder: GitHub/Ckbit/Osint/Email
+created: 2024-11-13
+---
 
 O **Have I Been Pwned?** (HIBP) é um serviço online que permite aos usuários verificar se suas informações pessoais foram comprometidas em violações de dados. Criado em 4 de dezembro de 2013 pelo especialista em segurança Troy Hunt, o HIBP coleta e analisa centenas de bancos de dados vazados, permitindo que os usuários pesquisem por seus endereços de e-mail ou nomes de usuário para identificar possíveis exposições. 
 

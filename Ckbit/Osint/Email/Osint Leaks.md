@@ -27,3 +27,4 @@ Embora o OSINT seja legal em muitas jurisdições, o uso de informações de pla
 - **Identificação de Vazamentos**: Em testes de penetração, vazamentos de dados como credenciais e tokens podem ser usados para explorar vulnerabilidades de autenticação. O OSINTLeaks pode revelar essas falhas, permitindo que os analistas as abordem antes que sejam exploradas maliciosamente.
 
 Para usuários interessados em aprofundar a exploração de OSINT no contexto de segurança, o uso de ferramentas como **Maltego** e **Recon-ng**, discutido no manual da **OSCP**, é recomendado para expandir as habilidades de inteligência de fontes abertas em avaliações de segurança.
+

@@ -1,3 +1,7 @@
+---
+folder: GitHub/Ckbit/Osint/Email
+created: 2024-11-13
+---
 
 O EmailRep.io é um serviço que avalia a reputação de endereços de e-mail, auxiliando na identificação de possíveis ameaças e atividades maliciosas associadas a esses endereços. Utilizando uma variedade de fontes, como perfis em redes sociais, vazamentos de credenciais na dark web, listas de spam e registros de atividades maliciosas, o EmailRep.io fornece informações detalhadas sobre a confiabilidade de um endereço de e-mail. 
 

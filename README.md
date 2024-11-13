@@ -1,9 +1,3 @@
----
-folder: "[[GitHub]]"
----
-
----
-
 # Knowledge Vault - Aprendizagem colaborativa em segurança ofensiva e tecnologia
 
 Este repositório GitHub é o núcleo do nosso projeto colaborativo, onde duas mentes se juntam para compartilhar, estudar e evoluir no campo da **segurança ofensiva** e **tecnologia**. Utilizamos o plugin Git do Obsidian para sincronizar e manter atualizadas nossas anotações, criando um ambiente de aprendizado mútuo e troca de conhecimento em temas diversos e essenciais para o nosso desenvolvimento profissional e acadêmico.

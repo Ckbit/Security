@@ -1,3 +1,6 @@
+---
+folder: "[[Osint]]"
+---
 # Images and Videos Overview
  
 ```ccard

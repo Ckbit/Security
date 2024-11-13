@@ -1,3 +1,6 @@
+---
+folder: "[[Social Media]]"
+---
 O **Maltego** é uma poderosa ferramenta de inteligência e análise visual desenvolvida pela **Paterva**, usada principalmente para mapeamento e coleta de dados para investigações de segurança, análise de redes sociais e análise de ameaças cibernéticas. Ele é uma ferramenta essencial no arsenal de profissionais de segurança e analistas de inteligência por sua capacidade de fornecer visualizações robustas e automação na coleta de dados.
 
 ### 1. Visão Geral e Funções Principais

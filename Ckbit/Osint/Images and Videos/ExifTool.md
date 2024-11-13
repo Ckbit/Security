@@ -1,3 +1,6 @@
+---
+folder: "[[Images and Videos]]"
+---
 O **ExifTool** é uma ferramenta poderosa para manipulação, leitura e escrita de metadados em arquivos digitais, especialmente imagens. Desenvolvida por **Phil Harvey**, essa ferramenta se destaca pela sua versatilidade e pelo suporte a um número muito grande de formatos e tipos de metadados, sendo amplamente utilizada em análise forense, fotografia, segurança da informação e em processos de **OSINT** (Open Source Intelligence).
 
 ### Principais características do ExifTool

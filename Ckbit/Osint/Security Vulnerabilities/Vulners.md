@@ -1,3 +1,6 @@
+---
+folder: "[[Security Vulnerabilities]]"
+---
 O **Vulners** é uma plataforma que oferece uma base de dados de vulnerabilidades e exploits, muito utilizada por profissionais de segurança da informação e desenvolvedores. Ela fornece informações detalhadas sobre vulnerabilidades conhecidas, além de correlações com exploits disponíveis e análises para auxiliar na avaliação de riscos de segurança. É especialmente útil em tarefas de OSINT (Open Source Intelligence), uma vez que compila informações de múltiplas fontes e permite o acesso a dados de vulnerabilidades em uma única interface.
 
 Entre suas principais funcionalidades, estão:

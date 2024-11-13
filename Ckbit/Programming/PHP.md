@@ -1,3 +1,6 @@
+---
+folder: "[[Programming]]"
+---
 PHP (Hypertext Preprocessor) é uma linguagem de script de código aberto amplamente usada, especialmente no desenvolvimento web para geração de conteúdo dinâmico em servidores. Inicialmente desenvolvida em 1994 por Rasmus Lerdorf, PHP evoluiu para ser uma das linguagens mais populares, com suporte embutido para vários sistemas de banco de dados e fácil integração com HTML.
 
 ### Funcionamento e Características

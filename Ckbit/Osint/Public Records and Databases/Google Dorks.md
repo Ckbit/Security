@@ -1,3 +1,6 @@
+---
+folder: "[[Public Records and Databases]]"
+---
 **Google Dorks** é uma técnica de busca avançada que utiliza operadores específicos no Google para encontrar informações que não estão normalmente acessíveis em pesquisas comuns. Essa técnica, quando bem aplicada, permite explorar e filtrar resultados de maneira detalhada, expondo dados que, muitas vezes, são sensíveis ou privados, e que podem estar publicamente acessíveis sem a devida segurança. Veja abaixo um guia detalhado sobre os conceitos e alguns dos operadores mais usados em Google Dorks.
 
 ### 1. **O Que São Google Dorks?**

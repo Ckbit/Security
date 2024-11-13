@@ -1,3 +1,6 @@
+---
+folder: "[[Osint]]"
+---
 # Geolocation Overview
  
 ```ccard

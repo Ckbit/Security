@@ -1,3 +1,6 @@
+---
+folder: "[[Geolocation]]"
+---
 O **Creepy** é uma ferramenta de OSINT (Open Source Intelligence) que permite a coleta e análise de informações geolocalizadas a partir de dados públicos. Ele é amplamente utilizado por profissionais de segurança da informação, investigadores e analistas para rastrear a localização de indivíduos com base em metadados de mídias sociais, como fotos, posts e outras interações. O software coleta esses dados de diversas plataformas e os organiza de forma a apresentar um mapeamento preciso das atividades e movimentações do alvo analisado.
 
 ### Características Principais do Creepy

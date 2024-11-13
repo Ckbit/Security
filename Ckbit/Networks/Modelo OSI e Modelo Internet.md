@@ -1,3 +1,6 @@
+---
+folder: "[[Networks]]"
+---
 **Modelo OSI (Open Systems Interconnection)**
 
 O modelo OSI é um modelo de referência para redes de computadores desenvolvido pela ISO (International Organization for Standardization) em 1984. Ele descreve como diferentes sistemas de redes se comunicam entre si, dividindo essa comunicação em **7 camadas**, onde cada uma delas desempenha uma função específica. É um modelo teórico, mas muito útil para entender como as redes funcionam e para facilitar a padronização dos protocolos.

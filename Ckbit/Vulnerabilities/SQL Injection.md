@@ -1,3 +1,6 @@
+---
+folder: "[[Vulnerabilities]]"
+---
 ## Mergulho Profundo no SQL Injection: Uma Explicação Detalhada
 
 SQL Injection (SQLi) é uma vulnerabilidade de segurança web séria que pode ter consequências devastadoras para sites e seus usuários. Vamos explorar essa vulnerabilidade em mais detalhes, complementando a explicação anterior e incorporando novas informações.

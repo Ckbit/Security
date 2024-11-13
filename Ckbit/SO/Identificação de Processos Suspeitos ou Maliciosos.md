@@ -1,3 +1,6 @@
+---
+folder: "[[SO]]"
+---
 A identificação de processos suspeitos ou maliciosos é uma habilidade crucial para analistas de cibersegurança. Processos maliciosos podem indicar a presença de malware, atividades de intrusão ou outras ameaças à integridade e confidencialidade dos sistemas. Este guia detalha os pontos-chave e as melhores práticas para identificar e analisar esses processos de forma eficaz.
 
 ---

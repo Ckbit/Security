@@ -1,3 +1,6 @@
+---
+folder: "[[People Information]]"
+---
 O WebMii é uma ferramenta online que permite pesquisar informações públicas sobre pessoas na internet, agregando dados de diversas fontes, incluindo redes sociais, sites e notícias. Ele é geralmente usado para verificar a presença online de uma pessoa, descobrir detalhes profissionais e avaliar a visibilidade digital. Vamos explorar desde as funções básicas até algumas aplicações mais complexas do WebMii:
 
 ### 1. **Básico: Pesquisa de Pessoas**

@@ -1,3 +1,6 @@
+---
+folder: "[[Networks]]"
+---
 CIDR (Classless Inter-Domain Routing) é um método para a alocação de endereços IP e roteamento que melhora a eficiência do uso do espaço de endereçamento da Internet. Antes do CIDR, os endereços IP eram divididos rigidamente em classes A, B e C, que eram frequentemente inadequadas para o tamanho real das redes, levando ao desperdício de endereços. O CIDR elimina essas classes e permite a criação de sub-redes mais flexíveis e eficientes.
 
 ### Estrutura do CIDR

@@ -1,3 +1,6 @@
+---
+folder: "[[Tools]]"
+---
 **Configurando e Diagnosticando Problemas de Rede com ipconfig, netstat e tracert**
 
 Manter uma rede funcionando corretamente é essencial para garantir a conectividade e o desempenho de sistemas computacionais. Ferramentas como ipconfig, netstat e tracert são indispensáveis para configurar e diagnosticar problemas de rede em ambientes Windows.

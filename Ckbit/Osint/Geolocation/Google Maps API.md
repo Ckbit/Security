@@ -1,3 +1,6 @@
+---
+folder: "[[Geolocation]]"
+---
 A **Google Maps API** é um conjunto abrangente de interfaces de programação de aplicativos (APIs) fornecido pelo Google, que permite a desenvolvedores integrar funcionalidades de mapeamento e localização em websites e aplicativos móveis. Essas APIs oferecem acesso a uma vasta gama de recursos, incluindo mapas interativos, geocodificação, cálculo de rotas, informações sobre lugares e muito mais.
 
 **Principais APIs e Funcionalidades:**

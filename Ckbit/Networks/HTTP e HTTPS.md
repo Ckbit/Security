@@ -1,3 +1,6 @@
+---
+folder: "[[Networks]]"
+---
 HTTP (HyperText Transfer Protocol) e HTTPS (HyperText Transfer Protocol Secure) são protocolos de comunicação usados para transferir dados entre um navegador web (cliente) e um servidor web. Eles são os principais responsáveis por permitir que você navegue na internet.
 
 ### HTTP

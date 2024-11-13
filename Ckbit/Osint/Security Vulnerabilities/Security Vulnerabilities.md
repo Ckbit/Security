@@ -1,3 +1,6 @@
+---
+folder: "[[Osint]]"
+---
 # Security Vulnerabilities Overview
  
 ```ccard

@@ -1,3 +1,6 @@
+---
+folder: "[[Public Records and Databases]]"
+---
 **PublicWWW** é uma ferramenta de busca específica que permite pesquisar em código-fonte de sites para encontrar informações detalhadas sobre uma ampla gama de itens de interesse, incluindo trechos de código, bibliotecas, frameworks, APIs, chaves de API, IDs, e até textos específicos. É bastante útil para desenvolvedores, profissionais de marketing digital, analistas de SEO, especialistas em segurança e investigadores de OSINT, entre outros.
 
 ### Principais Características e Funcionalidades

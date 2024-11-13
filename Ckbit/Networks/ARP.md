@@ -1,3 +1,6 @@
+---
+folder: "[[Networks]]"
+---
 ARP (Address Resolution Protocol) é um protocolo de rede utilizado para mapear endereços de rede em um ambiente de rede local (LAN). Ele faz a tradução entre endereços IP (camada 3 do modelo OSI) e endereços MAC (Media Access Control, da camada 2). Essa tradução é necessária para que os dispositivos possam se comunicar em redes Ethernet.
 
 Imagine que um computador, com um endereço IP conhecido, queira se comunicar com outro dispositivo dentro da mesma rede local. Para enviar um pacote, ele precisa descobrir o endereço MAC associado ao IP de destino, pois a comunicação em uma rede local é feita utilizando os endereços físicos (MAC). O ARP é responsável por fazer essa resolução.

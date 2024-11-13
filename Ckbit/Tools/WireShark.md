@@ -1,3 +1,6 @@
+---
+folder: "[[Tools]]"
+---
 O **Wireshark** é uma ferramenta de análise de tráfego de rede (sniffer) de código aberto, usada para capturar, filtrar e analisar pacotes de dados que trafegam em uma rede. É amplamente utilizado por profissionais de redes e cibersegurança para depurar problemas, monitorar o tráfego e identificar vulnerabilidades.
 
 ### Visão Geral do Wireshark

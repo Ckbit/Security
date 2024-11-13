@@ -1,3 +1,6 @@
+---
+folder: "[[SO]]"
+---
 Gerenciar os serviços no Windows é crucial para assegurar que o sistema operacional funcione de forma eficiente e segura. Os serviços são programas que executam tarefas específicas em segundo plano, sem a necessidade de interação direta do usuário. Duas ferramentas principais permitem o gerenciamento desses serviços: o console de serviços (services.msc) e os comandos net start e net stop no Prompt de Comando.
 
 ---

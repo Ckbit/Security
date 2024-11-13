@@ -1,3 +1,6 @@
+---
+folder: "[[People Information]]"
+---
 Spokeo é um serviço online que agrega informações pessoais de indivíduos nos Estados Unidos, geralmente extraídas de registros públicos e fontes de dados na web. Esse serviço é amplamente utilizado para realizar verificações de antecedentes e pesquisas sobre pessoas, consolidando dados de diversas fontes públicas e comerciais em uma interface amigável. Abaixo está um detalhamento de como ele funciona e algumas considerações importantes:
 
 ### 1. **Fontes de Dados Utilizadas**

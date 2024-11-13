@@ -1,3 +1,6 @@
+---
+folder: "[[SO]]"
+---
 A gestão de serviços essenciais em um sistema Linux é fundamental para a administração de servidores. Aqui estão os passos para configurar e gerenciar serviços como SSH e Apache.
 
 ---

@@ -1,3 +1,6 @@
+---
+folder: "[[SO]]"
+---
 O Windows Defender, atualmente conhecido como **Microsoft Defender Antivirus**, é a solução de segurança integrada da Microsoft para o sistema operacional Windows. Ele oferece proteção em tempo real contra ameaças como vírus, malware, spyware e ransomware. Desde o Windows 8, o Windows Defender vem pré-instalado e ativado por padrão, fornecendo aos usuários uma camada básica de segurança sem a necessidade de instalar softwares adicionais.
 
 ## Principais Características do Windows Defender

@@ -1,3 +1,6 @@
+---
+folder: "[[SO]]"
+---
 O **Gerenciador de Tarefas** e o **PowerShell** são ferramentas poderosas no Windows para gerenciar processos e monitorar o desempenho do sistema.
 
 ---

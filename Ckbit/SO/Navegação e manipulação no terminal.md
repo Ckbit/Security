@@ -1,3 +1,6 @@
+---
+folder: "[[SO]]"
+---
 Navegar e manipular arquivos através do terminal é uma habilidade essencial para usuários de sistemas operacionais como Linux e Windows. Abaixo, apresentamos os comandos básicos que permitem realizar essas tarefas em ambos os sistemas.
 
 ---

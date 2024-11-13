@@ -1,3 +1,6 @@
+---
+folder: "[[Osint]]"
+---
 # People Information Overview
  
 ```ccard

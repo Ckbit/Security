@@ -1,3 +1,6 @@
+---
+folder: "[[SO]]"
+---
 Automação de tarefas e gerenciamento de cron jobs são componentes essenciais na administração de sistemas e no desenvolvimento de software. Eles permitem que tarefas repetitivas sejam executadas automaticamente em horários específicos, melhorando a eficiência e reduzindo a carga de trabalho manual.
 
 **Automação de Tarefas:**

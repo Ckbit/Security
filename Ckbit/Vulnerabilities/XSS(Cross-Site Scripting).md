@@ -1,3 +1,6 @@
+---
+folder: "[[Vulnerabilities]]"
+---
 **O que é Cross-Site Scripting (XSS)?**
 
   A Cross-Site Scripting (XSS) é uma vulnerabilidade de segurança que permite que um atacante injete código malicioso em uma página web, permitindo que o código seja executado pelo navegador do usuário. Isso ocorre quando um site não valida adequadamente as entradas de usuário e as utiliza para gerar conteúdo dinâmico.

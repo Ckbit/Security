@@ -1,3 +1,6 @@
+---
+folder: "[[Networks]]"
+---
 **Port Forwarding** é uma técnica de rede usada para permitir que dispositivos externos se conectem a um dispositivo em uma rede privada por meio de um endereço IP público. Funciona redirecionando tráfego de uma porta específica do roteador para um dispositivo dentro da rede local. Esse método é bastante útil em situações onde você deseja acessar remotamente serviços internos, como servidores de jogos, servidores web ou câmeras de segurança.
 
 ### Como Funciona o Port Forwarding

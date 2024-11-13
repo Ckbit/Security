@@ -1,3 +1,6 @@
+---
+folder: "[[Networks]]"
+---
 Máscaras de sub-rede são usadas em redes de computadores para dividir uma rede principal em sub-redes menores, permitindo uma gestão mais eficiente do tráfego de dados e melhor organização da rede.
 
 ### O Que é uma Máscara de Sub-rede?

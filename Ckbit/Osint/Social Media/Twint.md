@@ -1,3 +1,6 @@
+---
+folder: "[[Social Media]]"
+---
 O Twint é um sistema de pagamento móvel amplamente utilizado na Suíça, permitindo que os usuários realizem transações financeiras diretamente por meio de seus smartphones. Desenvolvido pela empresa suíça Twint AG, o serviço foi lançado em 2014 com o objetivo de oferecer uma alternativa digital aos métodos de pagamento tradicionais, como dinheiro e cartões.
 
 **Funcionamento do Twint**

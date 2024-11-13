@@ -1,3 +1,6 @@
+---
+folder: "[[Networks]]"
+---
 Testes de configuração de firewalls são parte essencial da segurança em redes, pois garantem que as regras definidas estejam corretas, permitindo somente o tráfego autorizado e bloqueando atividades potencialmente maliciosas. Uma configuração incorreta pode gerar vulnerabilidades, expondo a rede a ataques.
 
 ### Testes de Configuração de Firewalls

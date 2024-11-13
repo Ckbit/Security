@@ -1,3 +1,6 @@
+---
+folder: "[[SO]]"
+---
 Localizar e analisar logs do sistema é uma tarefa fundamental para diagnosticar problemas, monitorar o comportamento do sistema, e identificar possíveis falhas de segurança em ambientes Linux. Os logs são arquivos que armazenam informações sobre eventos ocorridos no sistema, gerados por serviços, aplicativos, e pelo próprio kernel. Em sistemas Linux, os logs geralmente estão localizados no diretório /var/log/.
 
 ### Principais Logs no Diretório /var/log/

@@ -1,3 +1,6 @@
+---
+folder: "[[SO]]"
+---
 ### Principais Editores de Texto
 
 #### Vim

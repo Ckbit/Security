@@ -1,3 +1,6 @@
+---
+folder: "[[SO]]"
+---
 Distribuições e gerenciadores de pacotes são conceitos centrais em sistemas operacionais baseados em Linux, e entender a diferença entre eles ajuda a navegar melhor no universo Linux. Vou explicar cada um:
 
 ### Distribuições

@@ -1,3 +1,6 @@
+---
+folder: "[[Networks]]"
+---
 O **ICMP (Internet Control Message Protocol)** é um protocolo da camada de rede utilizado para enviar mensagens de erro e informações relacionadas ao funcionamento da comunicação na internet. Ele faz parte da família de protocolos do IP (Internet Protocol) e é muito importante para diagnosticar e resolver problemas de conectividade.
 
 Aqui estão os principais pontos sobre o ICMP de forma simples:

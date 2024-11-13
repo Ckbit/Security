@@ -1,3 +1,6 @@
+---
+folder: "[[Networks]]"
+---
 DNS (Domain Name System, ou Sistema de Nomes de Domínio) é um sistema que traduz nomes de domínios legíveis para humanos, como [www.exemplo.com](http://www.exemplo.com), em endereços IP, como 192.0.2.1, que são usados pelos computadores para localizar e se comunicar uns com os outros na internet.
 
 Quando você digita um endereço de site no seu navegador, como [www.google.com](http://www.google.com), o DNS é responsável por encontrar o endereço IP correspondente a esse nome de domínio. Essa tradução é essencial porque os computadores e servidores na internet se comunicam usando endereços IP, enquanto para os usuários humanos é muito mais fácil lembrar de nomes como "google.com" do que uma sequência de números.

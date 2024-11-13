@@ -1,3 +1,6 @@
+---
+folder: "[[Networks]]"
+---
 NAT (Network Address Translation) é um método usado em redes de computadores para traduzir endereços IP privados de uma rede local em um endereço IP público, que pode ser usado para comunicação com a internet. Esse processo é necessário principalmente devido à escassez de endereços IPv4 disponíveis e permite que múltiplos dispositivos em uma rede interna compartilhem um único endereço IP público.
 
 Existem três tipos principais de NAT:

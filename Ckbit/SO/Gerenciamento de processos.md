@@ -1,3 +1,6 @@
+---
+folder: "[[SO]]"
+---
 ### 1\. ps (Process Status)
 
 - O comando ps é usado para exibir uma lista de processos em execução no sistema. Ele fornece informações básicas como o ID do processo (PID), o terminal associado, o estado, e o tempo de CPU usado.

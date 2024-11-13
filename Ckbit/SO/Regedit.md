@@ -1,3 +1,6 @@
+---
+folder: "[[SO]]"
+---
 O **Registro do Windows** (acessível através do comando **regedit**) é um banco de dados hierárquico central que armazena configurações e opções para o sistema operacional Microsoft Windows. Ele contém informações críticas necessárias para o funcionamento do sistema, incluindo configurações de hardware, software, perfis de usuários e preferências do sistema.
 
 ## **Estrutura do Registro**

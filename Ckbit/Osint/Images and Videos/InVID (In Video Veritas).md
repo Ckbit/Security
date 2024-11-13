@@ -1,3 +1,6 @@
+---
+folder: "[[Images and Videos]]"
+---
 O **InVID (In Video Veritas)** é uma ferramenta de código aberto projetada para ajudar jornalistas, pesquisadores e analistas a verificar a autenticidade de conteúdos de vídeo e imagem, especialmente aqueles que circulam nas redes sociais. Desenvolvida originalmente através de uma colaboração entre a União Europeia e várias instituições de mídia, o InVID fornece uma série de funcionalidades úteis para verificar a origem, a data e a autenticidade de vídeos e imagens, sendo especialmente relevante para quem trabalha com análise de informações visuais e detecção de desinformação.
 
 Aqui estão os principais recursos e funcionalidades do InVID:

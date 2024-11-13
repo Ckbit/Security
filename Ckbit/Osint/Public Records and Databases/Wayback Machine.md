@@ -1,3 +1,6 @@
+---
+folder: "[[Public Records and Databases]]"
+---
 O **Wayback Machine**, criado pela **Internet Archive** em 2001, é um dos maiores e mais conhecidos serviços de preservação digital da história da internet. Essa ferramenta é um projeto de **arquivamento da web**, projetado para capturar e armazenar cópias de páginas web ao longo do tempo, permitindo que os usuários voltem "no tempo" e visualizem versões antigas de sites. Essa função se tornou essencial para a preservação de informações que poderiam ser perdidas devido a atualizações, reestruturações ou remoções de conteúdo online.
 
 ### Como Funciona

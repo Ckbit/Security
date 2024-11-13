@@ -1,3 +1,6 @@
+---
+folder: "[[Osint]]"
+---
 # Social Media Overview
  
 ```ccard

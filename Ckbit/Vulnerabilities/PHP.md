@@ -1,3 +1,6 @@
+---
+folder: "[[Vulnerabilities]]"
+---
 Para identificar e explorar as vulnerabilidades comuns em PHP, existem várias ferramentas e técnicas que podem ser aplicadas tanto para análise estática do código quanto para testes dinâmicos no ambiente de execução. Abaixo detalho como identificar cada vulnerabilidade e quais ferramentas são úteis tanto para encontrá-las quanto para explorá-las.
 
 ### 1. Injeção de SQL (SQL Injection)

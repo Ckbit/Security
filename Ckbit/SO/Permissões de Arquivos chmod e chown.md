@@ -1,3 +1,6 @@
+---
+folder: "[[SO]]"
+---
 No Linux, o sistema de permissões de arquivos é fundamental para garantir a segurança e a organização de arquivos e diretórios, permitindo definir quem pode ler, escrever ou executar cada item. Dois comandos principais são usados para gerenciar essas permissões: chmod e chown.
 
 ### 1\. chmod - Alterar Permissões de Arquivos

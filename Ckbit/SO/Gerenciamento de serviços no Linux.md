@@ -1,3 +1,6 @@
+---
+folder: "[[SO]]"
+---
 O gerenciamento de serviços no Linux é fundamental para manter o sistema operacional funcionando de maneira eficiente e segura. Dois comandos principais utilizados para essa tarefa são o systemctl e o service. A seguir, vamos explorar como esses comandos funcionam e como podem ser utilizados para controlar serviços no Linux.
 
 ## 1\. Comando systemctl

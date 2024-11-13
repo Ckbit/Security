@@ -1,3 +1,6 @@
+---
+folder: "[[SO]]"
+---
 No Linux, a estrutura de diretórios é organizada de forma hierárquica, iniciando pelo diretório raiz (/). Cada diretório serve a um propósito específico e armazena diferentes tipos de arquivos e dados do sistema. Vamos explorar os diretórios principais:
 
 1. **/** (Raiz): É o ponto de partida de todos os diretórios no sistema Linux. A partir do diretório raiz, todos os outros diretórios são acessíveis.

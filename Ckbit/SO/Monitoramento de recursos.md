@@ -1,3 +1,6 @@
+---
+folder: "[[SO]]"
+---
 ### Linux
 
 No Linux, existem diversas ferramentas disponíveis para monitorar o uso de recursos como CPU, memória, rede e disco. Algumas delas são:

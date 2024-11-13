@@ -1,3 +1,6 @@
+---
+folder: "[[Geolocation]]"
+---
 O termo **GeoSocial Footprint** se refere ao conjunto de dados geoespaciais e sociais deixados por uma pessoa em plataformas digitais, que podem ser analisados para inferir informações detalhadas sobre seus hábitos, localização, conexões sociais, interesses e comportamentos. Essa “pegada” é composta por dados de geolocalização, como check-ins, fotos com marcação geográfica e postagens em redes sociais que indicam onde e quando o usuário esteve em determinados locais.
 
 ### 1. Componentes do GeoSocial Footprint

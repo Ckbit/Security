@@ -1,3 +1,6 @@
+---
+folder: "[[SO]]"
+---
 
 O gerenciamento de contas de usuário e grupos no Windows é fundamental para administrar o acesso a recursos, manter a segurança do sistema e facilitar a colaboração entre usuários. O Windows oferece diversas ferramentas e recursos para criar, modificar e gerenciar contas de usuário e grupos, tanto em ambientes domésticos quanto corporativos.
 

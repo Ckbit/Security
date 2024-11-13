@@ -1,3 +1,6 @@
+---
+folder: "[[Osint]]"
+---
 # Domains and IP Addresses Overview
  
 ```ccard

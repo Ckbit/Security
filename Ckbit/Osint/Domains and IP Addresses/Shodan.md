@@ -1,3 +1,6 @@
+---
+folder: "[[Domains and IP Addresses]]"
+---
 O Shodan é um motor de busca especializado que permite a descoberta de dispositivos conectados à Internet, como servidores, câmeras de segurança, roteadores, entre outros. Diferente de buscadores tradicionais, como o Google, o Shodan rastreia não o conteúdo web, mas informações de infraestrutura de redes e dispositivos que respondem a portas específicas. Ele é amplamente utilizado em cibersegurança para realizar varreduras de rede, descoberta de vulnerabilidades e avaliação de exposição pública de sistemas.
 
 ### Funcionalidades do Shodan

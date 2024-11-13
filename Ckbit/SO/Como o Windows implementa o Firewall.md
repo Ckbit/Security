@@ -1,3 +1,6 @@
+---
+folder: "[[SO]]"
+---
 O Windows possui um firewall integrado chamado **Windows Defender Firewall** (anteriormente conhecido como Windows Firewall). Este firewall é uma ferramenta essencial para proteger o seu computador contra acessos não autorizados e ameaças externas, controlando o tráfego de rede de entrada e saída com base em regras configuráveis.
 
 ### Implementação do Firewall no Windows

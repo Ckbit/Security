@@ -1,3 +1,6 @@
+---
+folder: "[[Networks]]"
+---
 ### Switches
 
 - **Função Principal**: Os switches conectam dispositivos dentro de uma rede local (LAN), como computadores, impressoras e servidores.

@@ -1,3 +1,6 @@
+---
+folder: "[[SO]]"
+---
 O **PowerShell** é uma poderosa ferramenta de linha de comando e linguagem de script desenvolvida pela Microsoft. Ele combina a flexibilidade do prompt de comando tradicional com a capacidade de automatização de scripts, permitindo aos administradores gerenciar sistemas Windows de forma mais eficiente e eficaz.
 
 ## Comandos Básicos do PowerShell

@@ -1,3 +1,6 @@
+---
+folder: "[[People Information]]"
+---
 O **PeopleFinder** é uma plataforma online especializada na busca de informações públicas sobre indivíduos nos Estados Unidos. Fundada em 1999 por Robert Miller, a empresa está sediada em Sacramento, Califórnia, e oferece uma variedade de serviços relacionados a registros públicos. 
 
 **Serviços Oferecidos:**

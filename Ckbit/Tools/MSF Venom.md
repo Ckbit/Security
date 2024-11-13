@@ -1,3 +1,6 @@
+---
+folder: "[[Tools]]"
+---
 O **MSFVenom** é uma ferramenta do **Metasploit** usada para gerar payloads e executáveis, combinando as funcionalidades de `msfpayload` e `msfencode`. Ele é essencial em testes de penetração para gerar payloads personalizados que podem ser usados em ataques direcionados.
 
 ## Estrutura Básica do MSFVenom

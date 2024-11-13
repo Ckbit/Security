@@ -1,3 +1,6 @@
+---
+folder: "[[Tools]]"
+---
 O Veil-Evasion é uma ferramenta poderosa para ofuscação e criação de payloads que contornam softwares de antivírus em ambientes de testes de penetração. Ele faz parte da suíte Veil Framework, que contém outras ferramentas para pós-exploração, mas Veil-Evasion foca na criação de executáveis que evitam a detecção por soluções de segurança.
 
 ### Introdução Básica ao Veil-Evasion

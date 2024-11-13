@@ -1,3 +1,6 @@
+---
+folder: "[[SO]]"
+---
 Instalar, atualizar e remover pacotes com gestores de pacotes é uma prática fundamental para administrar e manter sistemas Linux. Cada gestor de pacotes facilita a manipulação de softwares e dependências, garantindo que os programas funcionem corretamente e estejam atualizados. Aqui estão alguns dos gestores de pacotes mais comuns e como realizar essas tarefas com eles:
 
 ### 1\. APT (Advanced Package Tool) - Usado em distribuições Debian-based (ex.: Ubuntu)

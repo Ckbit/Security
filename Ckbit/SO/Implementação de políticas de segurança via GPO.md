@@ -1,3 +1,6 @@
+---
+folder: "[[SO]]"
+---
 Compreender o uso de serviços essenciais em sistemas operacionais é fundamental para manter a eficiência e a segurança do ambiente computacional. Serviços essenciais são processos que operam em segundo plano e executam tarefas críticas, como gerenciamento de rede, segurança, atualizações automáticas, entre outros.
 
 **Como manipulá-los:**

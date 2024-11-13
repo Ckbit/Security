@@ -1,3 +1,6 @@
+---
+folder: "[[Images and Videos]]"
+---
 O **Google Reverse Image Search** é uma ferramenta do Google que permite fazer pesquisas utilizando imagens em vez de palavras. Com ela, você pode fazer o upload de uma imagem, inserir uma URL ou até arrastar e soltar uma imagem no campo de busca para encontrar informações relacionadas àquela imagem. Esse tipo de pesquisa é útil para:
 
 1. **Identificar objetos, lugares ou pessoas**: Se você possui uma imagem mas não sabe o que ela representa, o Google tenta encontrar imagens semelhantes e informações associadas.

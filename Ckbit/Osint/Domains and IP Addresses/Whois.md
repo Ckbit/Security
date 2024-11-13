@@ -1,3 +1,6 @@
+---
+folder: "[[Domains and IP Addresses]]"
+---
 Whois é um serviço de consulta que oferece detalhes de registros de domínios, redes e endereços IP, essencial para coleta de informações durante processos de reconhecimento em testes de segurança e investigações. Aqui está uma visão detalhada do funcionamento, comandos e tipos de consultas disponíveis:
 
 ### 1. O que é o Whois?

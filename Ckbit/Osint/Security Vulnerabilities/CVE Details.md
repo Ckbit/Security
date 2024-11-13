@@ -1,3 +1,6 @@
+---
+folder: "[[Security Vulnerabilities]]"
+---
 O **CVE Details** é um site que fornece uma base de dados de vulnerabilidades conhecida como CVE (Common Vulnerabilities and Exposures), onde são catalogadas e descritas vulnerabilidades de segurança de sistemas, softwares e dispositivos. A plataforma facilita o acesso a informações sobre CVEs, permitindo que profissionais de segurança, administradores de TI e desenvolvedores acompanhem vulnerabilidades específicas que possam afetar os sistemas que gerenciam ou desenvolvem.
 
 Principais funcionalidades do CVE Details:

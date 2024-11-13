@@ -1,3 +1,6 @@
+---
+folder: "[[Dev Ops]]"
+---
 ### **O que é?**
 Se trata de uma funcionalidade do Windows que permite executar ambientes GNU/Linux sem a necessidade de utilizar dual boot ou uma máquina virtual. A vantagem dessa funcionalidade é permitir que o usuário mantenha os dois sistemas operacionais em funcionamento enquanto utiliza todos os recursos do computador.
 

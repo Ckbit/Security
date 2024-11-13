@@ -1,3 +1,6 @@
+---
+folder: "[[Networks]]"
+---
 DHCP (Dynamic Host Configuration Protocol) é um protocolo de rede usado para atribuir automaticamente endereços IP e outras informações de configuração de rede aos dispositivos em uma rede. Ele facilita a gestão de endereços IP, evitando a necessidade de configurar manualmente cada dispositivo conectado à rede.
 
 Aqui estão os principais pontos sobre o funcionamento do DHCP:

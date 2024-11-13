@@ -1,3 +1,6 @@
+---
+folder: "[[Osint]]"
+---
 # Public Records and Databases Overview
  
 ```ccard

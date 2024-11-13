@@ -1,3 +1,6 @@
+---
+folder: "[[Programming]]"
+---
 Assembly é uma linguagem de programação de baixo nível que está intimamente ligada ao código de máquina específico de uma arquitetura de computador. Cada instrução em assembly geralmente corresponde a uma instrução única em código de máquina, permitindo um controle preciso sobre o hardware. Isso é particularmente útil em situações que exigem otimizações de desempenho crítico ou manipulação direta de componentes de hardware, como em sistemas embarcados, drivers de dispositivos e kernels de sistemas operacionais.
 
 

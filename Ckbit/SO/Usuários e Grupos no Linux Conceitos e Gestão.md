@@ -1,3 +1,6 @@
+---
+folder: "[[SO]]"
+---
 No Linux, os conceitos de "usuários" e "grupos" são fundamentais para a gestão de permissões e a segurança do sistema.
 
 ### Usuários

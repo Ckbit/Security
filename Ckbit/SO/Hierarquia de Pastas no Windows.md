@@ -1,3 +1,6 @@
+---
+folder: "[[SO]]"
+---
 A hierarquia de pastas no Windows é estruturada para organizar de forma eficiente os arquivos do sistema operacional, programas instalados e dados dos usuários. Conhecer essa estrutura pode ser útil para gerenciamento de arquivos, solução de problemas e personalização do sistema. A seguir, uma visão geral das pastas principais:
 
 ---

@@ -1,3 +1,6 @@
+---
+folder: "[[Networks]]"
+---
 TCP (Transmission Control Protocol) e UDP (User Datagram Protocol) são dois dos principais protocolos de transporte usados na Internet. Ambos são responsáveis por gerenciar como os dados são enviados e recebidos entre computadores. Vou explicar cada um deles e suas diferenças:
 
 ### TCP (Transmission Control Protocol)

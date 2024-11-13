@@ -1,3 +1,6 @@
+---
+folder: "[[Networks]]"
+---
 Uma Rede Virtual Privada (VPN, do inglês *Virtual Private Network*) é uma tecnologia que cria uma conexão segura e criptografada entre seu dispositivo e a internet. Essa conexão é estabelecida por meio de um "túnel" privado, que impede que terceiros, como hackers, provedores de internet e até governos, monitorem suas atividades online. Aqui está uma visão geral de como uma VPN funciona e seus benefícios:
 
 ### Como VPNs Funcionam

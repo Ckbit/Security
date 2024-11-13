@@ -1,3 +1,7 @@
+---
+folder: "[[Domains and IP Addresses]]"
+---
+
 O **DnsDumpster** é uma ferramenta valiosa para a coleta de informações de DNS, especialmente útil para análise de segurança e reconhecimento passivo. Ele permite mapear a infraestrutura de um domínio, identificando subdomínios, servidores de e-mail, registros de DNS e endereços IP associados. Aqui está uma explicação detalhada do processo de uso do DnsDumpster e de como ele pode ser integrado em práticas de pentesting.
 
 ### 1. **Visão Geral do DnsDumpster**

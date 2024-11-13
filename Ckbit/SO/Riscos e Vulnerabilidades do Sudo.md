@@ -1,3 +1,6 @@
+---
+folder: "[[SO]]"
+---
 A elevação de privilégios com sudo é um mecanismo utilizado em sistemas Unix-like (como Linux e macOS) para permitir que usuários executem comandos com privilégios elevados (geralmente do superusuário, ou root). O comando sudo requer que o usuário tenha permissão explícita configurada no arquivo /etc/sudoers, que define quem pode usar sudo e quais comandos podem ser executados.
 
 ### Como Funciona

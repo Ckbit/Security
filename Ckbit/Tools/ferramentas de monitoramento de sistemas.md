@@ -1,3 +1,6 @@
+---
+folder: "[[Tools]]"
+---
 Syslog e Journald são duas das principais ferramentas de monitoramento de sistemas em ambientes Linux. Ambas são utilizadas para registrar logs de sistema, facilitando o gerenciamento e a solução de problemas. Vamos explorar cada uma delas:
 
 ### Syslog

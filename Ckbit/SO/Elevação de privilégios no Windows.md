@@ -1,3 +1,6 @@
+---
+folder: "[[SO]]"
+---
 **Elevação de Privilégios no Windows e o Controle de Contas de Usuário (UAC)**
 
 A **elevação de privilégios** é um processo pelo qual um usuário ou programa obtém níveis de acesso superiores aos originalmente concedidos, permitindo a execução de ações potencialmente não autorizadas ou maliciosas em um sistema. No contexto do Windows, essa é uma preocupação significativa de segurança, pois invasores frequentemente buscam explorar vulnerabilidades para assumir o controle total de um sistema.

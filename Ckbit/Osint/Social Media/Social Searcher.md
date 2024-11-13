@@ -1,3 +1,6 @@
+---
+folder: "[[Social Media]]"
+---
 
 O **[Social Searcher](https://www.social-searcher.com/)** é uma ferramenta gratuita de monitoramento de mídias sociais que permite aos usuários buscar e analisar menções públicas em diversas plataformas, como Facebook, Twitter, Instagram, YouTube e outras. Com ele, é possível acompanhar em tempo real o que está sendo dito sobre uma empresa, marca, produto ou serviço, reunindo dados de várias redes sociais em um único local. 
 

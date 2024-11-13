@@ -1,3 +1,6 @@
+---
+folder: "[[Dev Ops]]"
+---
 ### **O que é?**
 O Docker é um **serviço de virtualização** onde é possível gera uma **Imagem** onde essa imagem contém todas as informações necessárias para executar e configurar determinadas aplicações, onde essa imagem ficará armazenada em um **Container** que opera de forma independente dos outros processos da nossa máquina, somente contendo as imagens alocadas com as aplicações.
 

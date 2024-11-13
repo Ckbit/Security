@@ -1,3 +1,6 @@
+---
+folder: "[[Networks]]"
+---
 VLANs (Virtual Local Area Networks) e segmentação de rede são conceitos usados para melhorar a segurança, o desempenho e a gestão de redes de computadores, especialmente em ambientes corporativos.
 
 ### VLANs (Virtual Local Area Networks)

@@ -1,3 +1,6 @@
+---
+folder: "[[GitHub/Ckbit/Ckbit|Ckbit]]"
+---
 # Osint Overview
  
 ```ccard

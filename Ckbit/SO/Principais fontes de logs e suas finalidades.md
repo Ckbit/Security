@@ -1,3 +1,6 @@
+---
+folder: "[[SO]]"
+---
 Os logs são registros detalhados de eventos que ocorrem em sistemas de computação, aplicativos e dispositivos de rede. Eles desempenham um papel crucial na manutenção, monitoramento, segurança e conformidade de sistemas de TI. A seguir, são apresentadas as principais fontes de logs e suas finalidades:
 
 1. **Logs de Aplicação:**

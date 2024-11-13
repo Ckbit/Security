@@ -1,3 +1,6 @@
+---
+folder: "[[Dev Ops]]"
+---
 ### **Como instalar o MySQL no Ubuntu**
 
 Para realizar a instalação do MySQL em um servidor Ubuntu basta seguir os seguintes comandos:

@@ -8,7 +8,7 @@ Para realizar a instalação do MySQL em um servidor Ubuntu basta seguir os segu
 1. Esse comando será utilizado para instalar o MySQL:
 
 ```bash
-sudo apt instal mysql-server
+sudo apt install mysql-server
 ```
 
 2. Assim que instalado, você deverá utilizar o seguinte comando para iniciar o serviço: 
@@ -29,7 +29,7 @@ sudo mysql
 ```
 
 2. Utilizar o comando **ALTER USER** para mudar o método de autenticação do usuário **root** para um método de requisição de senha:
-```mysql
+```bash
 ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'sua_senha';
 ```
 

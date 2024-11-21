@@ -98,11 +98,6 @@ Os registros se tratam de hub's onde as imagens criadas e utilizadas ficam armaz
 	```bash
 	sudo docker exec -it ID
 	```
-#### **docker ps -a**
-- Serve para listar todos os container que já foram executados na máquina.
-	```bash
-	sudo docker ps -a
-	```
 #### **docker attach |ID|**
 - Serve para executar acessar um container que está em execução.
 	```bash

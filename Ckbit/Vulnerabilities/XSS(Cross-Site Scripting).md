@@ -17,10 +17,10 @@ folder: "[[Vulnerabilities]]"
 
 **Tipos de XSS**
 
-- Existem três tipos principais de XSS:
-- Stored XSS: O código malicioso é armazenado no servidor e é executado quando outros usuários acessam a página.
-- Reflected XSS: O código malicioso é refletido de volta para o usuário na forma de uma página HTML.
-- DOM-based XSS: O código malicioso é executado no lado do cliente, modificando o DOM (Document Object Model) da página.
+Existem três tipos principais de XSS:
+- **Stored XSS**: O código malicioso é armazenado no servidor e é executado quando outros usuários acessam a página.
+- **Reflected XSS**: O código malicioso é refletido de volta para o usuário na forma de uma página HTML.
+- **DOM-based XSS**: O código malicioso é executado no lado do cliente, modificando o DOM (Document Object Model) da página.
 
 **Como testar se um site é vulnerável?**
 

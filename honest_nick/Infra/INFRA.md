@@ -11,6 +11,7 @@ kanban-plugin: board
 - [ ] [[Configuração do Zabbix]]
 - [ ] [[Configuração do PfSense]]
 - [ ] [[Configuração do DNS (.inf.br)]]
+- [ ] [[Atualizar PfSense]]
 
 
 ## Doing

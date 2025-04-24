@@ -8,6 +8,4 @@ Realizar a manutenção do e-mail postfix
 O Postfix é um serviço SMTP para envio de e-mail. Ele também é capaz de receber e-mail, filtrar spams e vírus (com programas auxiliares), gerenciamento das filas de e-mail e direcionamento e encaminhamento de mensagens
 - **SMTP** - É um protocolo utilizado para o envio de e-mail, onde o remetente faz o envio do e-mail pelo SMTP. Esse e-mail irá acessar o servidor onde está configurado o SMTP e o mesmo mandará pela internet o e-mail para o servidor IMAP/POP, que fará o encaminhamento ao destinatário.
 	![[Pasted image 20250424094949.png]]
-- **IMAP** - O IMAP opera com um serviço para recebimentos de e-mail, onde os e-mails recebidos ficam armazenados no servidor IMAP (Ex.: gmail, yahoo, outlook) e os dispositivos que tem acesso ao servidor consegue verificar os e-mail que chegaram para o seu usuário.
-- **POP** - O POP opera com um serviço de recebimento de e-mail, mas diferente do IMAP o servidor recebe o e-mail e direciona para cada usuário da rede local, onde o computador do determinado usuário ficará responsável por armazenar aquele e-mail.
-	![[Pasted image 20250424095324.png]]
+	

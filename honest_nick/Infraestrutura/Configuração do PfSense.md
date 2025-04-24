@@ -1,0 +1,1 @@
+Fazer a configuração de outro firewall para uso simultâneo na rede

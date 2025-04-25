@@ -124,3 +124,5 @@ Os registros se tratam de hub's onde as imagens criadas e utilizadas ficam armaz
 	sudo ps aux
 	```
 
+#### **ctrl+p e ctrl+q**
+- Server para sair de uma imagem sem encerrar o processo dela.

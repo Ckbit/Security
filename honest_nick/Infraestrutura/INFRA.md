@@ -10,6 +10,7 @@ kanban-plugin: board
 - [ ] [[Configuração do PfSense]]
 - [ ] [[Configuração do DNS (.inf.br)]]
 - [ ] [[Atualizar PfSense]]
+- [ ] [[Reconfiguração do NAS]]
 
 
 ## Doing

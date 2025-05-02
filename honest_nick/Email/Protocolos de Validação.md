@@ -21,6 +21,23 @@ Durante a recepção de um e-mail, o servidor receptor faz uma validação do e-
 
 Em todos os casos o e-mail nem sempre será rejeitado. Mesmo que o e-mail não passe na verificação do **`SPF`** e do **`DKIM`**, o servidor de destino pode relevar a política do **`DMARC`** e ainda aceitar o e-mail levando em conta outros fatores, como reputação do IP/domínio, conteúdo do e-mail e dentre outros.
 
+### **Tags do DMARC**
+Logo abaixo estão listadas a tagas que são utilizadas no **`DMARC`** :
+
+| **Tag** | **Significado**                          | **Obrigatório** | **Valores**                    |
+| ------- | ---------------------------------------- | --------------- | ------------------------------ |
+| `v`     | Versão                                   | Sim             | `v=DMARC1`                     |
+| `p`     | Política de alinhamento                  | Sim             | `none`, `quarentine`,`reject`  |
+| `rua`   | URL para relatórios agregados (resumido) | Não             | `mailto:relatorio@exemplo.com` |
+| `ruf`   | URL para relatórios forenses (detalhado) | Não             | `mailto:forense@exemplo.com`   |
+| `pct`   | Percentual de mensagens aplicado a pol   | Não             |                                |
+| `adkin` |                                          | Não             |                                |
+| `aspf`  |                                          | Não             |                                |
+| `fo`    |                                          | Não             |                                |
+| `sp`    |                                          | Não             |                                |
+
+---
+
 ### **SPF**
 **`SPF`** é a sigla para **Sender Policy Framework**. O mesmo serve como um mecanismo de segurança onde o proprietário do domínio define quais os servidores de IP estão autorizados a enviar e-mails pelo seu nome.
 

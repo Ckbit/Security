@@ -30,7 +30,7 @@ Logo abaixo estão listadas a tagas que são utilizadas no **`DMARC`** :
 | `p`     | Política de alinhamento                     | Sim             | `none`, `quarentine`,`reject`  |
 | `rua`   | URI para relatórios agregados (resumido)    | Não             | `mailto:relatorio@exemplo.com` |
 | `ruf`   | URI para relatórios forenses (detalhado)    | Não             | `mailto:forense@exemplo.com`   |
-| `pct`   | Percentual de mensagens aplicado a política | Não             | `0` a `100`                    |
+| `pct`   | Percentual de mensagens aplicado à política | Não             | `0` a `100`                    |
 | `adkin` | Alinhamento de DKIM                         | Não             | `r` (relaxed), `s` (sricted)   |
 | `aspf`  | Alinhamento de SPF                          | Não             | `r` (relaxed), `s` (sricted)   |
 | `fo`    | Opções de geração de relatórios forenses    | Não             | `0`,`1`,`d`,`s`                |
@@ -49,7 +49,11 @@ Geralmente ele é mais utilizado para detectar padrões de envio, facilitando a 
 
 Já o `RUF` é uma forma similar de configuração, porém ele apresentar detalhes mais específico e imediatos dos e-mails que falharam na autenticação `DMARC`.
 O mesmo tem envio quase imediato, contendo geralmente:
-- Cabeças completos da mensagem de recusa
+- Cabeças completos da mensagem de recusa;
+- Corpo da mensagem;
+- Resultado dos testes `SPF`, `DKIM` e `DMARC`;
+- IP e domínio de origem.
+Ele é mais utilizado para investigar tentativas suspeitas de falsificação (spoofing) ou ataques.
 
 ---
 

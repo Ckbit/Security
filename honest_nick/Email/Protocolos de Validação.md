@@ -24,7 +24,7 @@ Em todos os casos o e-mail nem sempre será rejeitado. Mesmo que o e-mail não p
 ### **Tags do DMARC**
 Logo abaixo estão listadas a tags que são utilizadas no **`DMARC`** :
 
-| **Tag** | **Significado**                             | **Obrigatório** | **Valores**                    |
+| **Tag** | **Função**                                  | **Obrigatório** | **Valores**                    |
 | ------- | ------------------------------------------- | --------------- | ------------------------------ |
 | `v`     | Versão                                      | Sim             | `v=DMARC1`                     |
 | `p`     | Política de alinhamento                     | Sim             | `none`, `quarentine`,`reject`  |
@@ -69,3 +69,18 @@ Ele é o protocolo utilizado para validar a identidade do remetente, evitando a 
 
 O **`SPF`** contém um registro um registro **`DNS`** que lista todos os servidores que tem acesso para enviar e-mails pelo seu domínio. 
 	**Ex**.: O domínio `meudominio.com.br` tem configurado no registro `SPF` para que somente o IP `179.206.83.7` tem acesso para enviar os e-mails utilizando seu domínio.
+
+### **Tags do SPF**
+Logo abaixo estão listadas a tags que são utilizadas no **`SPF`** :
+
+| **Tag** | **Função**                                       | **Obrigatório** | **Valores**              |
+| ------- | ------------------------------------------------ | --------------- | ------------------------ |
+| v       | Versão do SPF                                    | Sim             | `v=spf1`                 |
+| ip4     | Permitir o envio a partir de um IP ou faixa IPv4 | Não             | `ip4:<IP>` ou `ip4:<ip>` |
+|         |                                                  | Não             |                          |
+|         |                                                  | Não             |                          |
+|         |                                                  | Não             |                          |
+|         |                                                  | Não             |                          |
+|         |                                                  | Não             |                          |
+|         |                                                  | Não             |                          |
+|         |                                                  | Não             |                          |

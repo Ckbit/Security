@@ -16,13 +16,13 @@ Durante a recepção de um e-mail, o servidor receptor faz uma validação do e-
 
 - **Quarentine**: Nessa situação o e-mail ainda é aceito, mas será tratado como suspeito (possível fishing, vírus, etc.). Geralmente ele será direcionado para a caixa de SPAM/lixo eletrônico e, em alguns casos, será administrado por um sistema de controle do servidor como o Microsoft 365 Security ou o Google Admin.
 	```bash
-	v=DMARC1; p=reject; pct=100; rua=mailto:eu@meudominio.com.br
+	v=DMARC1; p=quarentine; pct=100; rua=mailto:eu@meudominio.com.br
 	```
 
 Em todos os casos o e-mail nem sempre será rejeitado. Mesmo que o e-mail não passe na verificação do **`SPF`** e do **`DKIM`**, o servidor de destino pode relevar a política do **`DMARC`** e ainda aceitar o e-mail levando em conta outros fatores, como reputação do IP/domínio, conteúdo do e-mail e dentre outros.
 
 ### **Tags do DMARC**
-Logo abaixo estão listadas a tagas que são utilizadas no **`DMARC`** :
+Logo abaixo estão listadas a tags que são utilizadas no **`DMARC`** :
 
 | **Tag** | **Significado**                             | **Obrigatório** | **Valores**                    |
 | ------- | ------------------------------------------- | --------------- | ------------------------------ |
@@ -61,3 +61,5 @@ Ele é mais utilizado para investigar tentativas suspeitas de falsificação (sp
 **`SPF`** é a sigla para **Sender Policy Framework**. O mesmo serve como um mecanismo de segurança onde o proprietário do domínio define quais os servidores de IP estão autorizados a enviar e-mails pelo seu nome.
 
 Ele é o protocolo utilizado para validar a identidade do remetente, evitando a falsificação do remetente (spoofing).
+
+O **`SPF`** contém um registro um registro **`DNS`** que lista todos os servidores que tem acesso para enviar e-mails pelo seu domínio. Ex.: O domínio `meudominio.com.br` tem configurado o 

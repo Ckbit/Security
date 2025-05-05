@@ -70,17 +70,18 @@ Ele é o protocolo utilizado para validar a identidade do remetente, evitando a 
 O **`SPF`** contém um registro um registro **`DNS`** que lista todos os servidores que tem acesso para enviar e-mails pelo seu domínio. 
 	**Ex**.: O domínio `meudominio.com.br` tem configurado no registro `SPF` para que somente o IP `179.206.83.7` tem acesso para enviar os e-mails utilizando seu domínio.
 
-### **Tags do SPF**
-Logo abaixo estão listadas a tags que são utilizadas no **`SPF`** :
+### **Mecanismos, Modificadores e Qualificadores do SPF**
+Logo abaixo estão listadas a mecanismos que são utilizadas na configuração do resgitro **`SPF`** :
 
-| **Tag** | **Função**                                       | **Obrigatório** | **Valores**              |
-| ------- | ------------------------------------------------ | --------------- | ------------------------ |
-| v       | Versão do SPF                                    | Sim             | `v=spf1`                 |
-| ip4     | Permitir o envio a partir de um IP ou faixa IPv4 | Não             | `ip4:<IP>` ou `ip4:<ip>` |
-|         |                                                  | Não             |                          |
-|         |                                                  | Não             |                          |
-|         |                                                  | Não             |                          |
-|         |                                                  | Não             |                          |
-|         |                                                  | Não             |                          |
-|         |                                                  | Não             |                          |
-|         |                                                  | Não             |                          |
+| **Mecanismo** | **Função**                                                       | **Obrigatório** | **Valores**                               |
+| ------------- | ---------------------------------------------------------------- | --------------- | ----------------------------------------- |
+| `v`           | Versão do SPF                                                    | Sim             | `v=spf1`                                  |
+| `ip4`         | Permitir o envio a partir de um IP ou faixa IPv4                 | Não             | `ip4:<IP>` ou `ip4:<IP>/<CIDR>`           |
+| `ip6`         | Permitir o envio a partir de um IP ou faixa IPv6                 | Não             | `ip6:<IP>` ou `ip6:<IP>/<CIDR>`           |
+| `a`           | Permite se o IP resolver para um registro A/AAAA do domínio      | Não             | `a` ou `a:sub.dominio.com`                |
+| `mx`          | Permite envio pelos IPs dos registros MX do domíno               | Não             | `mx` ou `mx:sub.dominio.com`              |
+| `include`     | Usa a política SPF de outro domínio (como Google, Outlook, etc.) | Não             | `include:dominio.com`                     |
+| `exists`      | Verifica se um domínio existe                                    | Não             | `exists:%{i}.dominio.com`                 |
+| `all`         | Aplica uma política a todos os IPs restantes                     | Sim             | `all` (usado no final dos qualificadores) |
+
+

@@ -36,6 +36,11 @@ Logo abaixo estão listadas a tags que são utilizadas no **`DMARC`** :
 | `fo`    | Opções de geração de relatórios forenses    | Não             | `0`,`1`,`d`,`s`                |
 | `sp`    | Política para subdomínios                   | Não             | `none`, `quarentine`,`reject`  |
 
+Logo abaixo temos um exemplo de registro DMARC completo:
+
+```bash
+v=DMARC1; p=reject; rua=mailto:dmarc-rua@seudominio.com; ruf=mailto:dmarc-ruf@seudominio.com; pct=100; adkim=s; aspf=r; sp=quarantine
+```
 #### **RUA e RUF**
 
 O `RUA` serve para configurar uma forma resumida e estatística do tráfego de e-mail que está usando o domínio.
@@ -62,4 +67,5 @@ Ele é mais utilizado para investigar tentativas suspeitas de falsificação (sp
 
 Ele é o protocolo utilizado para validar a identidade do remetente, evitando a falsificação do remetente (spoofing).
 
-O **`SPF`** contém um registro um registro **`DNS`** que lista todos os servidores que tem acesso para enviar e-mails pelo seu domínio. Ex.: O domínio `meudominio.com.br` tem configurado o 
+O **`SPF`** contém um registro um registro **`DNS`** que lista todos os servidores que tem acesso para enviar e-mails pelo seu domínio. 
+	**Ex**.: O domínio `meudominio.com.br` tem configurado no registro `SPF` para que somente o IP `179.206.83.7` tem acesso para enviar os e-mails utilizando seu domínio.

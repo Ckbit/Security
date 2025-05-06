@@ -71,7 +71,14 @@ O **`SPF`** contém um registro um registro **`DNS`** que lista todos os servido
 	**Ex**.: O domínio `meudominio.com.br` tem configurado no registro `SPF` para que somente o IP `179.206.83.7` tem acesso para enviar os e-mails utilizando seu domínio.
 
 ### **Mecanismos, Modificadores e Qualificadores do SPF**
-Logo abaixo estão listadas a mecanismos que são utilizadas na configuração do resgitro **`SPF`** :
+
+Para configuração do **`SPF`**, são configurados uma série de fatores, sendo eles **Mecanismos**, **Modificadores** e **Qualificadores**
+
+#### **Mecanismos**
+
+Os mecanismos são a principal fonte de configurado do `SPF`. Eles são as regras responsáveis por determinas **quais servidores ou IPs podem fazer o envio dos e-mails através do domínio**.
+
+Logo abaixo estão listadas a mecanismos que são utilizadas na configuração do registro **`SPF`** :
 
 | **Mecanismo** | **Função**                                                       | **Obrigatório** | **Valores**                               |
 | ------------- | ---------------------------------------------------------------- | --------------- | ----------------------------------------- |
@@ -84,4 +91,14 @@ Logo abaixo estão listadas a mecanismos que são utilizadas na configuração d
 | `exists`      | Verifica se um domínio existe                                    | Não             | `exists:%{i}.dominio.com`                 |
 | `all`         | Aplica uma política a todos os IPs restantes                     | Sim             | `all` (usado no final dos qualificadores) |
 
+Exemplo:
 
+```bash
+v=spf1 ip4:179.203.83.7
+```
+
+
+
+| `redirect`    | Redireciona toda a política para outro domínio                   | Não             | `redirect=outro.dominio.com`              |
+| ------------- | ---------------------------------------------------------------- | --------------- | ----------------------------------------- |
+| `exp`         | Mensagem explicativa (aparece em erros SPF)                      | Não             | `exp=mensagem.dominio.com`                |

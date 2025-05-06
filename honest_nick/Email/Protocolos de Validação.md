@@ -70,7 +70,7 @@ Ele é mais utilizado para investigar tentativas suspeitas de falsificação (sp
 
 Ele é o protocolo utilizado para validar a identidade do remetente, evitando a falsificação do remetente (spoofing).
 
-O **`SPF`** contém um registro um registro **`DNS`** que lista todos os servidores que tem acesso para enviar e-mails pelo seu domínio. 
+O `SPF` contém um registro um registro **`DNS`** que lista todos os servidores que tem acesso para enviar e-mails pelo seu domínio. 
 	**Ex**.: O domínio `meudominio.com.br` tem configurado no registro `SPF` para que somente o IP `179.206.83.7` tem acesso para enviar os e-mails utilizando seu domínio.
 
 ### **Mecanismos, Modificadores e Qualificadores do SPF**
@@ -138,4 +138,6 @@ Então após a validação do `SPF` o servidor de recepção fará a tratativa d
 ---
 ## **DKIM**
 
-**`DKIM`** é a sigla para **DomainKeys Indetified Mail** e se trata de um **método de autenticação** para os e-mail **baseado em criptografia**, permitindo que o servidor de envio do e-mail **assine digitalmente** algumas partes da mensagem, garantindo que o conteúdo do e-mail **não tenha sido alterado** e que ele realmente foi enviado com **autorização do domínio remetente**.
+**`DKIM`** é a sigla para **DomainKeys Identified Mail** e se trata de um **método de autenticação** para os e-mail **baseado em criptografia**, permitindo que o servidor de envio do e-mail **assine digitalmente** algumas partes da mensagem, garantindo que o conteúdo do e-mail **não tenha sido alterado** e que ele realmente foi enviado com **autorização do domínio remetente**.
+
+Diferente do **`SPF`** que garante a segurança que o caminho de envio (IP), o `DKIM` protege diretamente o conteúdo e-mail, garantindo que o **corpo do e-mail e cabeçalhos importantes não tenham sido alterados** e de que a mensagem **está autorizada a ser enviada** por aquele domínio.

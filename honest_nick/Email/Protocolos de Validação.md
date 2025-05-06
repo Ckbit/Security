@@ -129,4 +129,6 @@ v=spf1 ip4:192.0.2.10 include:_spf.exemplo.com -all
 Nessa configuração do `SPF` o servidor de destino fará a seguinte validação:
 - Se o IP do remente for **`192.0.02.10`**: **PASSA** no primeiro mecanismo. Caso não verifica o próximo mecanismo;
 - Se o IP do remente estiver listado em **`_spf.exemplo.com`**: **PASSA** no segundo mecanismo. Caso não, passa para o próximo mecanismo;
-- Caso todos os mecanismos **FALHEM**: cai no mecanismo `-all`
+- Caso todos os mecanismos **FALHEM**: cai no mecanismo `-all` -> Falha (e-mail rejeitado).
+
+Então após a validação do `SPF` o servidor de recepção fará a tratativa do e-mail com base na configuração `DMARC`

@@ -1,5 +1,5 @@
 ---
-folder: "[[Email]]"
+folder: "[[GitHub/Ckbit/Osint/Email/Email]]"
 ---
 O [Osint Leaks](https://osintleak.com/login) é uma plataforma de coleta e disseminação de informações, voltada principalmente para a aplicação de técnicas de inteligência de fontes abertas (OSINT). Este site reúne dados públicos que podem incluir informações sensíveis, como vazamentos de credenciais, detalhes sobre infraestrutura de redes, e dados extraídos de redes sociais e outras fontes de fácil acesso.
 

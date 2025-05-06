@@ -1,5 +1,5 @@
 ---
-folder: "[[Email]]"
+folder: "[[GitHub/Ckbit/Osint/Email/Email]]"
 created: 2024-11-13
 ---
 

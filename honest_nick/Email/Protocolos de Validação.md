@@ -120,9 +120,13 @@ Os **qualificadores** são **prefixos opcionais**que indicam **como tratar os me
 
 Com todas essas configurações definidas, o servidor já estará configurado para validação `SPF`, lembrando que o `SPF` não passa por uma validação completa dos mecanismos. 
 
-Exemplo:
+Quando um e-mail chega no servidor de recepção, o mesmo inicia a validação do `SPF` do servidor de origem verificando os mecanismos configurados da esquerda para a direita. Caso o e-mail esteja de acordo com a configuração do primeiro mecanismo, o mesmo é aceito pelo `SPF` e, caso não seja aceito, o servidor continuará testando os demais mecanismos até chegar no mecanismo `all`que dirá ao servidor de recepção o resultado final do teste. Por exemplo:
 
 ```bash
-v=spf1 ip4:179.203.83.7 mx ~all
+v=spf1 ip4:192.0.2.10 include:_spf.exemplo.com -all
 ```
 
+Nessa configuração do `SPF` o servidor de destino fará a seguinte validação:
+- Se o IP do remente for **`192.0.02.10`**: **PASSA** no primeiro mecanismo. Caso não verifica o próximo mecanismo;
+- Se o IP do remente estiver listado em **`_spf.exemplo.com`**: **PASSA** no segundo mecanismo. Caso não, passa para o próximo mecanismo;
+- Caso todos os mecanismos **FALHEM**: cai no mecanismo `-all`

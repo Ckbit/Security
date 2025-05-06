@@ -64,7 +64,7 @@ Ele é mais utilizado para investigar tentativas suspeitas de falsificação (sp
 
 ---
 
-### **SPF**
+## **SPF**
 
 **`SPF`** é a sigla para **Sender Policy Framework**. O mesmo serve como um mecanismo de segurança onde o proprietário do domínio define quais os servidores de IP estão autorizados a enviar e-mails pelo seu nome.
 
@@ -131,6 +131,11 @@ Nessa configuração do `SPF` o servidor de destino fará a seguinte validação
 - Se o IP do remente estiver listado em **`_spf.exemplo.com`**: **PASSA** no segundo mecanismo. Caso não, passa para o próximo mecanismo;
 - Caso todos os mecanismos **FALHEM**: cai no mecanismo `-all` -> Falha (e-mail rejeitado).
 
-Considerando que a validação é feita para cada mecanismo presente na configuração do `SPF`, acaba sendo in
+Considerando que a validação é feita para cada mecanismo presente na configuração do `SPF`, ter vários mecanismos configurados poder se ruim, já que durante a validação só podem ser consultados 10 registros DNS, o que pode complicar o gerenciamento e aumentar as chances de erro, como `includes` que contenham IPs desatualizados e afins.
 
-Então após a validação do `SPF` o servidor de recepção fará a tratativa do e-mail com base na configuração `DMARC`
+Então após a validação do `SPF` o servidor de recepção fará a tratativa do e-mail com base na configuração `DMARC`, seja em caso de aceite ou recusa pelo `SPF`.
+
+---
+## **DKIM**
+
+**`DKIM`** é a sigla para **DomainKeys Indetified Mail** e se trata de um **método de autenticação** para os e-mail **baseado em criptografia**, permitindo que o servidor de envio do e-mail **assine digitalmente** algumas partes da mensagem, garantindo que o conteúdo do e-mail **não tenha sido alterado** e que ele realmente foi enviado com **autorização do domínio remetente**.

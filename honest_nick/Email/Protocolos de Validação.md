@@ -94,11 +94,27 @@ Logo abaixo estão listadas a mecanismos que são utilizadas na configuração d
 Exemplo:
 
 ```bash
-v=spf1 ip4:179.203.83.7
+v=spf1 ip4:179.203.83.7 mx ~all
 ```
 
 
+#### **Modificadores**
 
-| `redirect`    | Redireciona toda a política para outro domínio                   | Não             | `redirect=outro.dominio.com`              |
-| ------------- | ---------------------------------------------------------------- | --------------- | ----------------------------------------- |
-| `exp`         | Mensagem explicativa (aparece em erros SPF)                      | Não             | `exp=mensagem.dominio.com`                |
+Os **modificadores** são **complementos especiais**. Ele **modificam o comportamento da política SPF** ou adicionam **informações adicionais**.
+
+| **Modificador** | **Função**                                     | **Obrigatório** | **Valores**                  |
+| --------------- | ---------------------------------------------- | --------------- | ---------------------------- |
+| `redirect`      | Redireciona toda a política para outro domínio | Não             | `redirect=outro.dominio.com` |
+| `exp`           | Mensagem explicativa (aparece em erros SPF)    | Não             | `exp=mensagem.dominio.com`   |
+
+Dentro da configuração do `SPF` só pode haver 1 modificador`redirect` e `exp`.
+
+#### **Qualificadores**
+Os **qualificadores** são **prefixos opcionais**que indicam **como tratar os mecanismos** se eles forem correspondidos.
+
+| **Qualificador** | **Ação em resposta ao mecanismo** | **Exemplo**    |
+| ---------------- | --------------------------------- | -------------- |
+| `+`              | Pass (aceita)                     | `+ip4:1.2.3.4` |
+| `-`              | Fail (rejeita o e-mail)           | `-all`         |
+| `~`              | SoftFail (aceita com suspeita)    | `~all`         |
+| `?`              | Neutral (nenhuma recomendação)    | `?all`         |

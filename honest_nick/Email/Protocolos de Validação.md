@@ -131,4 +131,6 @@ Nessa configuração do `SPF` o servidor de destino fará a seguinte validação
 - Se o IP do remente estiver listado em **`_spf.exemplo.com`**: **PASSA** no segundo mecanismo. Caso não, passa para o próximo mecanismo;
 - Caso todos os mecanismos **FALHEM**: cai no mecanismo `-all` -> Falha (e-mail rejeitado).
 
+Considerando que a validação é feita para cada mecanismo presente na configuração do `SPF`, acaba sendo in
+
 Então após a validação do `SPF` o servidor de recepção fará a tratativa do e-mail com base na configuração `DMARC`

@@ -1,6 +1,7 @@
 Durante o processo de envio e recepção de e-mails, existe uma série de protocolos que são utilizados para validar a veracidade do e-mail, sendo eles o **`DMARC`**, **`DKIM`** e **`SPF`**
 
 ## **DMARC**
+
 **`DMARC`** é sigla para **Domain-base Message Authentication, Reporting and Conformance**. O mesmo funciona com um método de autenticação de mensagens de e-mail, onde o mesmo serve como instruções para o servidor receptor sobre como proceder após a verificação do **`SPF`** e do **`DKIM`**.
 
 Durante a recepção de um e-mail, o servidor receptor faz uma validação do e-mail através do **`SPF`** e **`DKIM`**. Caso o e-mail do remetente venha a ser recusado, o servidor **`DMARC`** do destinatário (receptor) consulta o a política que foi definida no **`DMARC`** do remetente para orientar-se em relação a tratativa do e-mail. As instruções mais comuns são:
@@ -22,6 +23,7 @@ Durante a recepção de um e-mail, o servidor receptor faz uma validação do e-
 Em todos os casos o e-mail nem sempre será rejeitado. Mesmo que o e-mail não passe na verificação do **`SPF`** e do **`DKIM`**, o servidor de destino pode relevar a política do **`DMARC`** e ainda aceitar o e-mail levando em conta outros fatores, como reputação do IP/domínio, conteúdo do e-mail e dentre outros.
 
 ### **Tags do DMARC**
+
 Logo abaixo estão listadas a tags que são utilizadas no **`DMARC`** :
 
 | **Tag** | **Função**                                  | **Obrigatório** | **Valores**                    |
@@ -63,6 +65,7 @@ Ele é mais utilizado para investigar tentativas suspeitas de falsificação (sp
 ---
 
 ### **SPF**
+
 **`SPF`** é a sigla para **Sender Policy Framework**. O mesmo serve como um mecanismo de segurança onde o proprietário do domínio define quais os servidores de IP estão autorizados a enviar e-mails pelo seu nome.
 
 Ele é o protocolo utilizado para validar a identidade do remetente, evitando a falsificação do remetente (spoofing).
@@ -91,13 +94,6 @@ Logo abaixo estão listadas a mecanismos que são utilizadas na configuração d
 | `exists`      | Verifica se um domínio existe                                    | Não             | `exists:%{i}.dominio.com`                 |
 | `all`         | Aplica uma política a todos os IPs restantes                     | Sim             | `all` (usado no final dos qualificadores) |
 
-Exemplo:
-
-```bash
-v=spf1 ip4:179.203.83.7 mx ~all
-```
-
-
 #### **Modificadores**
 
 Os **modificadores** são **complementos especiais**. Ele **modificam o comportamento da política SPF** ou adicionam **informações adicionais**.
@@ -110,6 +106,7 @@ Os **modificadores** são **complementos especiais**. Ele **modificam o comporta
 Dentro da configuração do `SPF` só pode haver 1 modificador`redirect` e `exp`.
 
 #### **Qualificadores**
+
 Os **qualificadores** são **prefixos opcionais**que indicam **como tratar os mecanismos** se eles forem correspondidos.
 
 | **Qualificador** | **Ação em resposta ao mecanismo** | **Exemplo**    |
@@ -118,3 +115,14 @@ Os **qualificadores** são **prefixos opcionais**que indicam **como tratar os me
 | `-`              | Fail (rejeita o e-mail)           | `-all`         |
 | `~`              | SoftFail (aceita com suspeita)    | `~all`         |
 | `?`              | Neutral (nenhuma recomendação)    | `?all`         |
+
+#### **Conclusão**
+
+Com todas essas configurações definidas, o servidor já estará configurado para validação `SPF`, lembrando que o `SPF` não passa por uma validação completa dos mecanismos. 
+
+Exemplo:
+
+```bash
+v=spf1 ip4:179.203.83.7 mx ~all
+```
+
